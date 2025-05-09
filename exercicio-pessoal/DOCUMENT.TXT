@@ -1,0 +1,8 @@
+        <img src="https://avatars.githubusercontent.com/u/175875889?v=4" class="img-perfil">
+        <h2>Samuel</h2>
+        <p>Técnico em Mecatrônica e cursando Sistemas da Informação na UNIVALE, estou começando minha jornada na area de desenvolvimento de software.</p>
+        <p>Quando sobra um tempo, gosto de explorar minha criatividade e me aventurar no automobilismo virtual.
+        <p> Apaixonado por tecnologia, futebol e automobilismo.</p>
+        <br>
+        <a href="https://br.linkedin.com/in/samuel-de-oliveira-neves-4414a5272" class="bl">Linkedin</a>
+        <a href="https://github.com/Sam-towk" class="github">Github</a>

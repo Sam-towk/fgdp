@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+:root {
+    --cor-primaria: #0a1c2c;
+    --cor-secundaria: #2c384aa4;
+    --cor-terciaria: #c5d3e0;
+    --cor-quaternaria: #d38517;
+    --cor-quinta: #9c1121;
+    --cor-sexta: #03111F;
+}
+
+body {
+    background-color: var(--cor-sexta);
+    color: var(--cor-quaternaria);
+}
+
+.navgc {
+    position: fixed;
+    top: 0;
+    background: var(--cor-secundaria);
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    /*fixar o menu no topo*/
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--cor-quaternaria);
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--cor-quaternaria);
+    left: 0;
+    bottom: 0;
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.cabecalho {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imgperfil {
+    width: 400px;
+    height: 400px;
+    box-shadow: 015px 30px 68px -23px rgba(211, 133, 23, 0.50);
+    border: 1px solid var(--cor-quaternaria);
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--cor-quaternaria);
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.subtitulo {
+    font-size: 1.3rem;
+    color: var(--cor-quinta);
+}
+
+.sobre {
+    padding: 6rem 2rem;
+}
+
+.sobre-titulo {
+    font-size: 3rem;
+    color: var(--cor-terciaria);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-caixa {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--cor-quaternaria);
+    backdrop-filter: blur(19px);
+    background-color: var(--cor-secundaria);
+
+}
+
+.sobre-paragrafo {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.particulas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   background-image: radial-gradient(circle at 10% 20%, var(--cor-quaternaria) 0%, transparent 30%),radial-gradient(circle at 90% 90%, var(--cor-quinta) 0%, transparent 27%);
+    background-color: var(--cor-sexta);
+
+}
+
+.contato {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: row
+}
+.contato btn1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn1 a {
+    padding: 0.8rem 4rem; 
+    max-width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid var(--cor-quaternaria);
+    display: flex;
+    margin-right: 2rem;
+    justify-content: center;
+    background-image: url('btn1gh.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition-property: transform;
+    transition-duration: 0.4s ;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+
+}
+.btn1 a:hover {
+    transform: scale(0.9);
+}
+
+.btn2 a {
+    padding: 0.8rem 4rem; 
+    max-width: 300px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid var(--cor-quaternaria);
+    display: flex;
+    justify-content: center;
+    background-image: url('btn2gh.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition-property: transform;
+    transition-duration: 0.4s ;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+}
+.btn2 a:hover {
+    transform: scale(0.9);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor-quaternaria);
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem;
+  
+}
