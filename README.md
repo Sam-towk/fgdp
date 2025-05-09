@@ -1,7 +1,7 @@
 # fgdp
 # Repositório de Estudos sobre Supervisão - Davy (Gato)
 
-Este repositório contém meus estudos e projetos relacionados ao tema de supervisão, guiados pelo Davi. Aqui você encontrará exercícios práticos, anotações e outros materiais que estou utilizando para aprofundar meu conhecimento nesta área.
+Este repositório contém meus estudos e projetos relacionados ao tema de supervisão, guiados pelo Davy. Aqui você encontrará exercícios práticos, anotações e outros materiais que estou utilizando para aprofundar meu conhecimento nesta área.
 
 ## Conteúdo
 
